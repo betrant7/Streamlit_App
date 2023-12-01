@@ -45,5 +45,7 @@ elif app_mode=='Prediction':
         st.markdown(f'Harga Mobil: $ {harga_mobil_formatted}')
         
 
-elif app_mode == 'Profil':
-    st.write('App realised by : Betrant Wiprazzia M')
+elif app_mode =='Profil':
+    st.title('Profil')
+    st.image('mobil.jpg')
+    st.audio('car-horn.mp3')
